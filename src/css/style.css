@@ -18,7 +18,6 @@ body{
     font-weight: 400;
 }
 
-/* HEADER =  Cabeçalho*/
 .header{
     grid-area: header;
     background-color: #fff;
@@ -43,7 +42,6 @@ body{
 }
 
 
-/* HERO = Painel */
 .hero{
     grid-area: hero;
     height: 85vh;
@@ -84,7 +82,7 @@ body{
     }
 }
 
-/* ABOUT = Sobre */
+
 .about{
     grid-area: about;
     display: grid;
@@ -150,7 +148,6 @@ body{
 }
 
 
-/* SERVICES = Serviços */
 .services{
     grid-area: services;
     display: grid;
@@ -195,7 +192,7 @@ body{
     }
 }
 
-/* PROJECTS = projetos */
+
 .projects{
     grid-area: projects;
     display: grid;
@@ -225,9 +222,53 @@ body{
     }
 }
 
-/* FOOTER = Rodapé  */
+
 .footer{
     grid-area: footer;
+    display: flex;
+    background-color: lightgreen;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
 }
 
+.footer h4{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
 
+.footer nav{
+    margin: 50px 0;
+}
+
+.footer nav ul{
+    display: flex;
+    justify-content: center;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.footer nav ul li a{
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.footer nav ul li a:hover{
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer .social i{
+    font-size: 2rem;
+}
+
+.footer .social a{
+    margin: 20px;
+}
+
+.footer .social a:hover{
+    color: #fff;
+}
